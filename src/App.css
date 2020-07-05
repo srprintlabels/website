@@ -1563,7 +1563,18 @@ span.accor-open {
     padding: 150px 0;
     width: 80vw;
 }
+.contact-form-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 
+.contact-form-area .row{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
 .contact-left {
     width: 40vw;
     text-align: left;
