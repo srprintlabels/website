@@ -1,6 +1,6 @@
 export * from './Header'
 export * from './Home'
-export * from './Welcome'
+export * from './Carousel'
 export * from './Sections'
 export * from './Products'
 export * from './Clients'

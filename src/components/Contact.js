@@ -10,7 +10,12 @@ import { Header, Footer } from '../components'
 export const Contact = (props)=> {
   return <div>
     <Header />
-    <div class="mosh-breadcumb-area" style={{backgroundImage: `url(${breadcrumb})`}}>
+    <div class="mosh-breadcumb-area" style={{
+      backgroundImage: `url(${breadcrumb})`,
+      backgroundSize: '100vw',
+      backgroundRepeat: 'no-repeat',
+      height: '53vh'
+    }}>
       <div class="container h-100">
         <div class="row h-100 align-items-center">
           <div class="col-12">

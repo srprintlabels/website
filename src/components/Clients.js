@@ -10,6 +10,10 @@ import GelCaps from '../assets/img/clients-img/GelCaps.png'
 import BilogicalE from '../assets/img/clients-img/BilogicalE.png'
 import cta from '../assets/img/bg-img/cta.jpg'
 
+import { contactUs } from '../website-info.json'
+
+const { subTitle, title } = contactUs
+
 export const Clients = (props)=> {
   return <div>
     <section class="mosh-clients-area">
@@ -66,8 +70,8 @@ export const Clients = (props)=> {
       <div class="container">
         <div class="cta-content text-center wow fadeIn" data-wow-delay="0.5s">
           <div class="section-heading">
-            <p>give us a shout</p>
-            <h2>Are you Ready to have a Talk?</h2>
+            <p>{subTitle}</p>
+            <h2>{title}</h2>
             <a 
               href="/contact"
               class="btn mosh-btn"

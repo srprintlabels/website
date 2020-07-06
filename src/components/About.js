@@ -8,11 +8,16 @@ import { Header, Footer } from '../components'
 export const About = (props)=> {
   return <div>
     <Header />
-    <div class="mosh-breadcumb-area" style={{backgroundImage: `url(${breadcrumb})`}}>
-      <div class="container h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-12">
-            <div class="bradcumbContent">
+    <div className="mosh-breadcumb-area" style={{
+      backgroundImage: `url(${breadcrumb})`,
+      backgroundSize: '100vw',
+      backgroundRepeat: 'no-repeat',
+      height: '53vh'
+    }}>
+      <div className="container h-100">
+        <div className="row h-100 align-items-center">
+          <div className="col-12">
+            <div className="bradcumbContent">
               <h2>About Us</h2>
             </div>
           </div>
@@ -20,9 +25,9 @@ export const About = (props)=> {
       </div>
     </div>
 
-    <section class="mosh-aboutUs-area">
-      <div class="mosh-about-us-content">
-        <div class="section-heading">
+    <section className="mosh-aboutUs-area">
+      <div className="mosh-about-us-content">
+        <div className="section-heading">
           <h2>Quality Policy</h2>
         </div>
         <p>The quality policy of Standard Printers is to ensure customer satisfaction by providing quality printing solutions for Offset and Labels printing. We have identified the following core objectives in our business:</p>
@@ -33,7 +38,7 @@ export const About = (props)=> {
         <p>We are commited to continuous improvement in all aspects of our business to improve the service to our customers and in all the internal processes of the company.</p>
         <p>ISO 9001: 2015 Quality Management system is the basis of our quality management system and we are commited to meet the requirements.</p>
       </div>
-      <div class="mosh-about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
+      <div className="mosh-about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
         <img src={certificate} alt="" />
       </div>
     </section>
