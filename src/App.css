@@ -1539,8 +1539,8 @@ span.accor-open {
 
 .contact-area {
   display: flex;
-  justify-content: space-evenly;
-  padding: 150px 0;
+  justify-content: space-between;
+  padding: 150px 10%;
 }
 
 .contact-form-area {
