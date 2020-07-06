@@ -1,5 +1,4 @@
 import React from 'react'
-import 'json-loader'
 
 import logo from '../assets/img/core-img/logo.png'
 
