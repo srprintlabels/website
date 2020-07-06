@@ -32,7 +32,7 @@ export const Contact = (props)=> {
             <textarea name="message" class="form-control" id="message" 
                       name="comments" cols="30" rows="10" placeholder="Message">
             </textarea>
-            <button class="btn mosh-btn mt-50" type="submit">Send Message</button>
+            <button class="mosh-btn mt-50" type="submit">Send Message</button>
         </form>
       </div>
       <div class="contact-right">
@@ -71,6 +71,20 @@ export const Contact = (props)=> {
         </div>
       </div>
     </section>
+
+    <div class="map-area">
+      <div class="map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15222.503822634968!2d78.424826!3d17.477608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c6f502818315e47!2sSR%20Print%20Labels!5e0!3m2!1sen!2sin!4v1576904753515!5m2!1sen!2sin"
+          frameborder="0" 
+          style={{border: '0', margin: '0'}}
+          width="100%"
+          height="500vh" 
+          allowfullscreen=""
+        ></iframe>
+      </div>
+    </div>
+
     <Footer />
   </div>
 }

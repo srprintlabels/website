@@ -64,22 +64,18 @@ export const Clients = (props)=> {
       }}
     >
       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="cta-content text-center wow fadeIn" data-wow-delay="0.5s">
-              <div class="section-heading">
-                <p>give us a shout</p>
-                <h2>Are you Ready to have a Talk?</h2>
-                <a 
-                  href="contact.html"
-                  class="btn mosh-btn"
-                  style={{
-                    padding: '10px 30px',
-                    borderRadius: '70px'
-                  }}
-                >Contact Us</a>
-              </div>
-            </div>
+        <div class="cta-content text-center wow fadeIn" data-wow-delay="0.5s">
+          <div class="section-heading">
+            <p>give us a shout</p>
+            <h2>Are you Ready to have a Talk?</h2>
+            <a 
+              href="/contact"
+              class="btn mosh-btn"
+              style={{
+                padding: '10px 30px',
+                borderRadius: '70px'
+              }}
+            >Contact Us</a>
           </div>
         </div>
       </div>

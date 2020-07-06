@@ -281,6 +281,9 @@ img {
 }
 
 .mosh-btn {
+    border-radius: 170px;
+    border: 0 none;
+    padding: 10px;
     background-color: #4a7aec;
     min-width: 150px;
     color: #fff;
