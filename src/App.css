@@ -464,28 +464,6 @@ img {
   margin-bottom: 20px;
 }
 
-.mosh-service-slides .owl-prev,
-.mosh-service-slides .owl-next {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background-color: transparent;
-  line-height: 50px;
-  text-align: center;
-  top: 50%;
-  margin-top: -30px;
-  left: -25px;
-  border-radius: 50%;
-  color: #a2baff;
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
-}
-
-.mosh-service-slides .owl-next {
-  left: auto;
-  right: -25px;
-}
-
 /* -------------------------
 :: 5.0 Clients Area
 ------------------------- */
@@ -1213,7 +1191,7 @@ span.accor-open {
 ------------------------- */
 
 .mosh-clients-area {
-  padding: 50px 0 100px 0;
+  padding: 150px 8%;
 }
 
 .mosh-clients-testimonials-area {

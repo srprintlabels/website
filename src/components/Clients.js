@@ -29,7 +29,7 @@ export const Clients = (props)=> {
           <div class="col-12">
             <div class="clients-logo-area">
               <a href="#">
-                <img src={Metro} alt="" style={{border: '0px'}} />
+                <img src={Metro} alt="" />
               </a>
               <a href="#">
                 <img src={Lindstrom} alt="" />

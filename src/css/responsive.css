@@ -371,12 +371,6 @@
   .hero-slide-content h2 {
     font-size: 30px;
   }
-  .single-more-service-area {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
 }
 
 @media (min-width: 1200px) {
