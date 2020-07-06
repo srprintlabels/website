@@ -4,6 +4,10 @@
     height: 85vh;
   }
 
+  .mosh-breadcumb-area {
+    background-size: 100vw 350px;
+  }
+
   .contact-form-area {
     width: 40vw;
   }
@@ -46,6 +50,10 @@
 
   .mosh-more-services-area {
     width: 100vw;
+  }
+
+  .mosh-breadcumb-area {
+    background-size: 100vw 350px;
   }
 
   .contact-form-area {
@@ -96,7 +104,7 @@
   }
 
   .contact-area {
-    padding: 50px 0 100px 0;
+    padding: 50px 10% 100px 10%;
   }
 }
 
@@ -212,6 +220,10 @@
     text-transform: capitalize;
   }
 
+  .mosh-breadcumb-area {
+    background-size: 200vw 50vh;
+  }
+
   .mosh-aboutUs-area {
     padding: 0 3% 100px 3%;
     flex-direction: column-reverse;
@@ -293,7 +305,7 @@
     text-align: center;
   }
   .footer-right {
-    width: 80vw;
+    width: 65vw;
   }
   .footer-right h5 {
     padding: 100px 0 0 0;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
 
 @import "css/bootstrap.min.css";
 /* @import 'css/owl.carousel.min.css'; */
@@ -483,9 +483,7 @@ img {
 :: 6.0 Features Area
 ------------------------- */
 
-.mosh-portfolio 
-
-.mosh-features-area {
+.mosh-portfolio .mosh-features-area {
   background-color: #211b31;
   position: relative;
   z-index: 1;
@@ -595,7 +593,7 @@ img {
 :: 8.0 Portfolio Area
 ------------------------- */
 
-.bradcumbContent h3{
+.bradcumbContent h3 {
   font-size: 50px;
   font-weight: 700;
   color: #fff;
@@ -935,6 +933,12 @@ span.accor-open {
 /* -----------------------
 :: 14.0 About Us CSS
 ----------------------- */
+
+.mosh-breadcumb-area {
+  background-size: 100vw 50vh;
+  background-repeat: no-repeat;
+  height: 53vh;
+}
 
 .mosh-aboutUs-area {
   padding: 100px 8%;
