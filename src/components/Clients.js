@@ -12,7 +12,7 @@ import cta from '../assets/img/bg-img/cta.jpg'
 
 export const Clients = (props)=> {
   return <div>
-    <section class="mosh-clients-area section_padding_100 clearfix">
+    <section class="mosh-clients-area">
       <div class="container">
         <div class="row">
           <div class="col-12">

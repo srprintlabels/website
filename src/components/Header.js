@@ -34,7 +34,7 @@ export const Header = (props)=> {
                 <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
                   <ul class="navbar-nav animated" id="nav">
                     <li class="nav-item active">
-                      <a class="nav-link">Home</a>
+                      <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="/about">About Us</a>

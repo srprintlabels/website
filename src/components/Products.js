@@ -10,7 +10,7 @@ import calendar from '../assets/img/core-img/calendar.svg'
 import carton from '../assets/img/core-img/carton.svg'
 
 export const Products = ()=> {
-    return <div>
+    return <div class="mosh-products-area">
       <center><h2>Our Product Range</h2></center>
 
       <section class="mosh-more-services-area" style={{padding: "50px 0 0 0"}}>

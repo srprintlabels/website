@@ -21,7 +21,7 @@ export const Footer = (props)=> {
         
         <div class="footer-right">
           <div class="single-footer-widget">
-            <h5>Contact Info</h5>
+            <h5 class="mb-50 d-block">Contact Info</h5>
             <div class="footer-single-contact-info d-flex">
               <div class="contact-icon">
                 <img src={map} alt="" style={{width: '18px'}}/>

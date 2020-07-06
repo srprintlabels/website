@@ -75,9 +75,27 @@ img {
     text-align: center;
 }
 
-.section_padding_100 h5 {
+.middle-section h5 {
     width: 70vw;
     line-height: 1.5;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-clientele-section {
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* .section_padding_100_0 {
@@ -456,6 +474,13 @@ img {
 :: 4.0 Service Area
 ------------------------- */
 
+.mosh-products-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .mosh-service-slides {
     position: relative;
     z-index: 1;
@@ -593,10 +618,11 @@ img {
 .mosh-more-services-area {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    width: 80vw;
 }
 
 .mosh-more-services-area .grid-item{
-    padding: 50px;
+    padding: 30px;
 }
 
 .single-more-service-area {
@@ -883,7 +909,7 @@ span.accor-open {
 
 .single-footer-widget h5 {
     color: #fff;
-    margin-bottom: 50px;
+    font-size: 25px;
 }
 
 .single-footer-widget ul > li > a {
@@ -958,12 +984,10 @@ span.accor-open {
 ----------------------- */
 
 .mosh-aboutUs-area {
-    padding: 100px 0;
-}
-
-.mosh-aboutUs-area > .container > .row {
+    padding: 100px 8%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .mosh-about-us-content {
@@ -1211,6 +1235,10 @@ span.accor-open {
 /* -------------------------
 :: 17.0 Clients Area
 ------------------------- */
+
+.mosh-clients-area {
+    padding: 50px 0 100px 0;
+}
 
 .mosh-clients-testimonials-area {
     background-color: #211b31;
@@ -1557,31 +1585,31 @@ span.accor-open {
 :: 19.0 Contact Page CSS
 ---------------------- */
 
-.contact-area > .container > .row {
+.contact-area {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 150px 0;
-    width: 80vw;
 }
-.contact-form-area{
+/* .contact-form-area{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
+} */
 
-.contact-form-area .row{
-    width: 40vw;
+.contact-form-area{
     display: flex;
     flex-direction: column;
+    width: 80vw;
+    justify-content: flex-start;
 }
+
 .contact-left {
     width: 40vw;
-    text-align: left;
 }
+
 .contact-right {
-    width: 30vw;
-    text-align: left;
+    width: 30vw
 }
 
 .contact-form-area h2,

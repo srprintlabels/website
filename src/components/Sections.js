@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const Sections = (props)=> {
-  return <div>
-    <section class="section_padding_100 welcome" style={{textAlign:"center"}}>
+  return <div class="middle-section">
+    <section class="welcome-section">
         <h2>Welcome</h2>
         <div style={{color: "#abadbe"}}>
           <h5>SR Print Labels is a well established organization in the domain of commercial designing and printing.
@@ -11,7 +11,7 @@ export const Sections = (props)=> {
         </div>
     </section>
 
-    <section class="section_padding_100" style={{textAlign:"center"}}>
+    <section class="our-clientele-section" style={{textAlign:"center"}}>
       <h2>Our clientele</h2>
       <div style={{color: "#abadbe"}}>
         <h5>We have been able to attract a number of customers all over the country. Currently we are engaged

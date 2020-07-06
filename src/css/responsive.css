@@ -18,6 +18,14 @@
         top: 0;
         padding-bottom: 100px;
     }
+
+    .contact-form-area{
+        width: 40vw;
+    }
+
+    .contact-map-icon {
+        width: 50px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -62,6 +70,23 @@
     .hero-slides .owl-prev {
         left: 5px;
     }
+    .welcome-section h5,
+    .our-clientele-section h5 {
+        font-size: 18px;
+    }
+
+    .mosh-more-services-area {
+        width: 100vw;
+    }
+
+    .contact-form-area{
+        width: 40vw;
+    }
+
+    .contact-map-icon {
+        width: 50px;
+    }
+
     .clients-logo-area > a > img {
         max-width: 100px;
         height: auto;
@@ -70,7 +95,6 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 0 50%;
                 flex: 0 0 50%;
-        max-width: 50%;
     }
     .mosh-more-services-area {
         -ms-flex-wrap: wrap;
@@ -88,6 +112,18 @@
     }
     .mosh-cool-facts-area .counter-area > h3 {
         font-size: 40px;
+    }
+
+    .top-footer-area p {
+        width: 35vw;
+    }
+
+    .footer-right h5 {
+        font-size: 25px;
+    }
+
+    .mosh-about-us-thumb {
+        width: 50vw;
     }
 }
 
@@ -161,6 +197,17 @@
     .section-heading > h2 {
         font-size: 24px;
     }
+
+    .middle-section h2 {
+        font-size: 35px;
+        padding: 0 0 20px 0;
+    }
+
+    .middle-section h5 {
+        font-size: 18px;
+        padding: 0 0 20px 0;
+    }
+
     .clients-logo-area {
         display: grid;
         grid-template-columns: auto auto;
@@ -176,6 +223,7 @@
     .mosh-more-services-area {
         display: grid;
         grid-template-columns: auto auto;
+        width: 100vw;
     }
     .more-service-content {
         display: flex;
@@ -191,45 +239,39 @@
         font-size: 18px;
         text-transform: capitalize;
     }
-    .mosh-aboutUs-area > .container > .row {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+
+    .mosh-aboutUs-area{
+        padding: 0 3% 100px 3%;
+        flex-direction: column-reverse;
     }
     
     .mosh-about-us-content {
-        width: 80vw;
+        width: 75vw;
         text-align: center;
     }
-    .contact-area > .container > .row {
-        padding: 100px 0;
-        margin: 0 auto;
+    .contact-area,
+    .contact-left,
+    .contact-right {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 50px 0;
     }
 
-    .contact-form-area{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .contact-left {
+        text-align: center;
     }
-
-    .contact-form-area .row{
-        width: 70vw;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .contact-left, .contact-right {
-        width: 70vw;
+    .contact-right{
+        width: 60vw;
     }
 
     .contact-right h2 {
         text-align: center;
+    }
+
+    .contact-map-icon{
+        width: 3em;
     }
 
     .features-img > img {
@@ -291,12 +333,6 @@
     .bradcumbContent h2 {
         font-size: 40px;
     }
-    .mosh-about-us-thumb {
-        margin-top: 100px;
-    }
-    .mosh-features-thumb {
-        margin-bottom: 100px;
-    }
     .few-words-contents,
     .few-words-thumb {
         -webkit-box-flex: 0;
@@ -353,11 +389,6 @@
     .single-hero-slide {
         height: 700px;
     }
-    .clients-logo-area > a > img {
-        max-width: 75px;
-        height: auto;
-        margin: 0 15px;
-    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -373,5 +404,15 @@
             -ms-flex: 0 0 50%;
                 flex: 0 0 50%;
         max-width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-form-area{
+        width: 40vw;
+    }
+
+    .contact-map-icon {
+        width: 50px;
     }
 }
