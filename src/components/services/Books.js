@@ -18,13 +18,7 @@ export const Books = (props)=> {
         </div>
       </div>
     </div>
-    <section class="mosh-portfolio-area">
-      <div class="mosh-projects-menu">
-        <div class="portfolio-menu">
-        </div>
-      </div>
-    </section>
-
+    <section style={{height: '60vh'}}></section>
     <Footer />
   </div>
 }

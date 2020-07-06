@@ -483,6 +483,8 @@ img {
 :: 6.0 Features Area
 ------------------------- */
 
+.mosh-portfolio 
+
 .mosh-features-area {
   background-color: #211b31;
   position: relative;
@@ -593,13 +595,10 @@ img {
 :: 8.0 Portfolio Area
 ------------------------- */
 
-.bradcumbContent h2{
+.bradcumbContent h3{
+  font-size: 50px;
   font-weight: 700;
-}
-
-.portfolio-menu {
-  margin-bottom: 100px;
-  margin-top: -10px;
+  color: #fff;
 }
 
 .mosh-portfolio {
@@ -611,7 +610,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2vw;
+  margin: 1vw;
 }
 
 .gallery-content {

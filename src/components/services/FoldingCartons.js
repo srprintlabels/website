@@ -16,7 +16,7 @@ export const FoldingCartons = (props)=> {
         <div className="row h-100 align-items-center">
           <div className="col-12">
             <div className="bradcumbContent">
-              <h2>Folding Cartons</h2>
+              <h3>Folding Cartons</h3>
             </div>
           </div>
         </div>
