@@ -31,7 +31,7 @@ export const SelfAdhesiveLabels = (props) => {
 
       <div className="gallery-content">
         <div
-          class="mosh-portfolio"
+          class="mosh-gallery"
           style={{
             gridTemplateColumns: "auto auto auto",
           }}

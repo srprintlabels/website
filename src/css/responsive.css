@@ -146,12 +146,17 @@
   }
 
   .landing-carousel {
-    height: 40vh;
+    height: 48vh;
     padding: 10vh 0 0 0;
   }
 
   .carousel-inner img {
     width: 80vw;
+  }
+
+  .carousel-item h2 {
+    font-size: 30px;
+    width: 60vw
   }
 
   .welcome_area {
@@ -192,8 +197,8 @@
     display: grid;
     grid-template-columns: auto auto;
   }
-  .clients-logo-area > a > img {
-    max-width: 30vw;
+  .clients-logo-area > div > img {
+    max-width: 25vw;
     height: auto;
     margin: 15px;
   }
@@ -366,6 +371,14 @@
   .contact-information {
     margin-top: 100px;
   }
+  .not-found-icon {
+    width: 50vw;
+    height: 50vw;
+  }
+  .not-found .btn {
+    margin: 100px 0 0 0;
+  }
+
 }
 
 @media (min-width: 480px) and (max-width: 767px) {

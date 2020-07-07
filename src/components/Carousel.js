@@ -38,18 +38,23 @@ export const Carousel = () => {
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={adhesive} alt="First slide" />
+            <h2 style={{fontWeight: '600'}}>Self-Adhesive Labels</h2>
+            <img src={adhesive} alt="First slide"/>
           </div>
           <div class="carousel-item">
+            <h2 style={{fontWeight: '600'}}>Leaflets & Flyers</h2>
             <img src={leaflets} alt="Second slide" />
           </div>
           <div class="carousel-item">
+            <h2 style={{fontWeight: '600'}}>Barcode Labels</h2>
             <img src={barcode} alt="Third slide" />
           </div>
           <div class="carousel-item">
+            <h2 style={{fontWeight: '600'}}>Visual Aids, Books & Magazines</h2>
             <img src={books} alt="Fourth slide" />
           </div>
           <div class="carousel-item">
+          <h2 style={{fontWeight: '600'}}>Packaging MonoCartons</h2>
             <img src={monocartons} alt="Third slide" />
           </div>
         </div>

@@ -29,9 +29,9 @@ export const FoldingCartons = (props) => {
 
       <div className="gallery-content">
         <div
-          class="mosh-portfolio"
+          class="mosh-gallery"
           style={{
-            gridTemplateColumns: "auto auto",
+            gridTemplateColumns: "auto auto auto auto",
           }}
         >
           <div class="single_gallery_item grid-item">

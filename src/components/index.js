@@ -8,5 +8,6 @@ export * from './Footer'
 
 export * from './About'
 export * from './Contact'
+export * from './404'
 
 export * from './services'

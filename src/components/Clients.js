@@ -28,41 +28,22 @@ export const Clients = (props)=> {
 
           <div class="col-12">
             <div class="clients-logo-area">
-              <a href="#">
-                <img src={Metro} alt="" />
-              </a>
-              <a href="#">
-                <img src={Lindstrom} alt="" />
-              </a>
-              <a href="#">
-                <img src={Schneider} alt="" />
-              </a>
-              <a href="#">
-                <img src={IIL} alt="" />
-              </a>
+              <div className="grid-item"><img src={Metro} alt="" /></div>
+              <div className="grid-item"><img src={Lindstrom} alt="" /></div>
+              <div className="grid-item"><img src={Schneider} alt="" /></div>
+              <div className="grid-item"><img src={IIL} alt="" /></div>
+              <div className="grid-item"><img src={Resolute} alt="" /></div>
+              <div className="grid-item"><img src={Srinivasa} alt="" /></div>
+              <div className="grid-item"><img src={GelCaps} alt="" /></div>
+              <div className="grid-item"><img src={BilogicalE} alt="" /></div>
             </div>
           </div>
-        </div>
-        <div class="clients-break" style={{height: '50px'}}></div>
-        <div class="clients-logo-area">
-          <a href="#">
-            <img src={Resolute} alt="" />
-          </a>
-          <a href="#">
-            <img src={Srinivasa} alt="" />
-          </a>
-          <a href="#">
-            <img src={GelCaps} alt="" />
-          </a>
-          <a href="#">
-            <img src={BilogicalE} alt="" />
-          </a>    
         </div>
       </div>
     </section>
 
-    <section 
-      class="mosh-call-to-action-area bg-img bg-overlay section_padding_100" 
+    <section
+      class="mosh-call-to-action-area bg-img bg-overlay section_padding_100"
       style={{
         backgroundImage: `url(${cta})`
       }}
@@ -72,7 +53,7 @@ export const Clients = (props)=> {
           <div class="section-heading">
             <p>{subTitle}</p>
             <h2>{title}</h2>
-            <a 
+            <a
               href="/contact"
               class="btn mosh-btn"
               style={{

@@ -8,7 +8,7 @@ export const Header = (props)=> {
     <div id="preloader">
         <div className="mosh-preloader"></div>
     </div>
-    
+
     {/* Header */}
     <header className="header_area clearfix">
       <div className="container-fluid h-100">
@@ -19,13 +19,13 @@ export const Header = (props)=> {
                 <a className="navbar-brand" href="/">
                   <img src={logo} alt="logo"></img>
                 </a>
-                <button 
-                  className="navbar-toggler" 
-                  type="button" 
-                  data-toggle="collapse" 
-                  data-target="#mosh-navbar" 
-                  aria-controls="mosh-navbar" 
-                  aria-expanded="false" 
+                <button
+                  className="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#mosh-navbar"
+                  aria-controls="mosh-navbar"
+                  aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
                   <span className="navbar-toggler-icon"></span>
@@ -40,7 +40,17 @@ export const Header = (props)=> {
                       <a className="nav-link" href="/about">About Us</a>
                     </li>
                     <li className="nav-item dropdown">
-                      <a className="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                      <a
+                        href="#"
+                        className="nav-link dropdown-toggle"
+                        id="moshDropdown"
+                        role="button"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                      >
+                        Services
+                      </a>
                       <div className="dropdown-menu" aria-labelledby="moshDropdown">
                         <a className="dropdown-item" href="/books">Books</a>
                         <a className="dropdown-item" href="/self-adhesive-labels">Self-adhesive labels</a>
