@@ -56,6 +56,12 @@
     background-size: 100vw 350px;
   }
 
+  .mosh-gallery > .grid-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   .contact-form-area {
     width: 40vw;
   }
@@ -146,8 +152,8 @@
   }
 
   .landing-carousel {
-    height: 48vh;
-    padding: 10vh 0 0 0;
+    height: 420px;
+    padding: 100px 0 0 0;
   }
 
   .carousel-inner img {
@@ -405,5 +411,17 @@
 
   .contact-map-icon {
     width: 30px;
+  }
+}
+
+@media (max-width: 427px) {
+  .mosh-gallery {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 428px) {
+  .mosh-gallery {
+    grid-template-columns: auto auto auto;
   }
 }
