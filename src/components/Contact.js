@@ -91,7 +91,7 @@ export const Contact = (props) => {
               <div class="contact-icon mr-15">
                 <img src={call} alt="" />
               </div>
-              <p>Mobile: +91 9177664482</p>
+              <p>Mobile: +91 9177446682</p>
             </div>
             <div class="single-contact-info d-flex">
               <div class="contact-icon mr-15">

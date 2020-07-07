@@ -38,7 +38,7 @@ export const Footer = (props)=> {
               <div class="contact-icon">
                 <img src={call} alt="" />
               </div>
-              <p>Mobile: 9177664482</p>
+              <p>Mobile: 9177446682</p>
             </div>
             <div class="footer-single-contact-info d-flex">
               <div class="contact-icon">
