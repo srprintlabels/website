@@ -30,7 +30,7 @@ export const NotFoundPage = () => {
   }}>
     The page you're looking for is not here
   </p>
-  <a href="/" className="animated pulse">
+  <a href="/" className="animated pulse" style={{ cursor: 'pointer' }}>
     <button class="btn mosh-btn">Take Me Home 🏠</button>
   </a>
   </div>
