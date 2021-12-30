@@ -5,6 +5,8 @@ import map from '../assets/img/core-img/map.png'
 import call from '../assets/img/core-img/call.png'
 import message from '../assets/img/core-img/message.png'
 
+import websiteInfo from '../website-info.json' 
+
 export const Footer = (props)=> {
   return <footer class="footer-area">
       <div class="top-footer-area">
@@ -26,19 +28,19 @@ export const Footer = (props)=> {
               <div class="contact-icon">
                 <img src={map} alt="" style={{width: '18px'}}/>
               </div>
-              <p>Plot No. 137, Prasanthi Nagar, I.E Kukatpally Hyderabad, Telangana - 500072</p>
+              <p>{websiteInfo.address}</p>
             </div>
             <div class="footer-single-contact-info d-flex">
               <div class="contact-icon">
                 <img src={call} alt="" />
               </div>
-              <p>Office: 040 40208438</p>
+              <p>Office: {websiteInfo.landline}</p>
             </div>
             <div class="footer-single-contact-info d-flex">
               <div class="contact-icon">
                 <img src={call} alt="" />
               </div>
-              <p>Mobile: 9177446682</p>
+              <p>Mobile: {websiteInfo.phone}</p>
             </div>
             <div class="footer-single-contact-info d-flex">
               <div class="contact-icon">

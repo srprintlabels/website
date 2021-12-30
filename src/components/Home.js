@@ -1,12 +1,11 @@
 import React from 'react'
 
-import { Header, Carousel, Sections, Products, Clients, Footer } from '../components'
+import { Header, Carousel, Products, Clients, Footer } from '../components'
 
-export const Home = (props)=> {
+export const Home = ()=> {
   return <div>
     <Header />
     <Carousel />
-    <Sections />
     <Products />
     <Clients />
     <Footer />

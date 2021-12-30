@@ -4,6 +4,7 @@ import breadcrumb from "../assets/img/core-img/breadcumb.png";
 import certificate from "../assets/img/home-carousel/certy.png";
 
 import { Header, Footer } from "../components";
+import { ourClientele } from '../website-info.json'
 
 export const About = (props) => {
   return (
@@ -29,15 +30,29 @@ export const About = (props) => {
       <section className="mosh-aboutUs-area">
         <div className="mosh-about-us-content">
           <div className="section-heading">
-            <h2>Quality Policy</h2>
+            <h2>Welcome</h2>
           </div>
           <p>
-            The quality policy of Standard Printers is to ensure customer
-            satisfaction by providing quality printing solutions for Offset and
-            Labels printing. We have identified the following core objectives in
-            our business:
+            SR PRINT LABELS is a one-stop shop that can handle all your
+            requirements from structural design to production to
+            distribution. Having the entire operation in-house ensures
+            tight control over quality and faster turnaround.
+            We recognize it is not just designs and ideas that are
+            important, good execution is vital as well, to win client
+            confidence and ensure client satisfaction. Our expertise is
+            Creative Graphic Design services including, Brochure,
+            Catalogs, etc. We are one of the prominent service providers of Offset Printing, Roll form labels services, and we are having more than 10 years of experiencein this industry. We would welcome the opportunity to
+            understand your business requirements.
           </p>
-          <ul>
+          <section class="our-clientele-section" >
+            <div className="section-heading">
+              <h2>{ourClientele.title}</h2>
+            </div>
+            <div style={{color: "#abadbe", textAlign: "left", lineHeight: "1.6em"}}>
+              <p>{ourClientele.text}</p>
+            </div>
+          </section>
+          {/* <ul>
             <li>
               <p>
                 1. Achieve levels of service based on creating cost effective
@@ -59,7 +74,7 @@ export const About = (props) => {
           <p>
             ISO 9001: 2015 Quality Management system is the basis of our quality
             management system and we are commited to meet the requirements.
-          </p>
+          </p> */}
         </div>
         <div className="mosh-about-us-thumb wow fadeInUp" data-wow-delay="0.5s">
           <img src={certificate} alt="" />

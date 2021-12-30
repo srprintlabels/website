@@ -118,7 +118,7 @@ export class Contact extends Component {
                 </div>
                 <p>
                   <a href="https://g.page/sr-print-labels?share">
-                    Plot No. 137, Prasanthi Nagar, I.E Kukatpally Hyderabad,
+                    H- No: 5-35-269, Shakthipuram, Near Industrial Area, Kukatpally Hyderabad,
                     Telangana - 500072
                   </a>
                 </p>
@@ -127,7 +127,7 @@ export class Contact extends Component {
                 <div class="contact-icon mr-15">
                   <img src={call} alt="" />
                 </div>
-                <p>Main: 040 40208438</p>
+                <p>Main: 040 3594 4136</p>
               </div>
               <div class="single-contact-info d-flex">
                 <div class="contact-icon mr-15">

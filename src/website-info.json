@@ -10,6 +10,15 @@
   "contactUs": {
     "subTitle": "Give us a shout",
     "title": "Are you Ready to have a Talk?"
+  },
+  "address": "5-35-269, Shakthipuram, near Industrial Area, Kukatpally, Hyderabad - 500072",
+  "phone": "9177446682",
+  "landline": "040 3594 4136",
+  "products": {
+    "books": {
+      "title": "Booklets",
+      "description": "Booklet is intended to assist the users in using a particular product or service. We will work with you yo give the best quality printed booklets that increases your prestige"
+      
+    }
   }
-
 }
